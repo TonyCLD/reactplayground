@@ -1,0 +1,29 @@
+{
+  "name": "react_playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd ./server && npm start",
+    "dev:server": "nodemon server/server.js",
+    "dev:client": "cd client && npm start",
+    "dev": "npm run dev:server & npm run dev:client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdtdesigns/react_playground_uofm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdtdesigns/react_playground_uofm/issues"
+  },
+  "homepage": "https://github.com/jdtdesigns/react_playground_uofm#readme",
+  "dependencies": {
+    "apollo-server-express": "^3.10.1",
+    "appolo": "^7.0.5",
+    "bcrypt": "^5.0.1",
+    "mongoose": "^6.5.3"
+  }
+}
